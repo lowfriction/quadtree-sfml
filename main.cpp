@@ -16,7 +16,7 @@ int main()
 	app.setFramerateLimit( 60 );
 
 	sf::Font font;
-	font.loadFromFile( "DroidSans.ttf" );
+	font.loadFromFile( "/usr/share/fonts/TTF/DroidSans.ttf" );
 
 	Quadtree quadtree( 0.0f, 0.0f, 800.0f, 600.0f, 0, 3 );
 	quadtree.SetFont( font );
